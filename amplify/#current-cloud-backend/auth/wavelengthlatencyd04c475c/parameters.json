@@ -1,0 +1,6 @@
+{
+  "authSelections": "identityPoolAndUserPool",
+  "resourceName": "wavelengthlatencyd04c475c",
+  "serviceType": "imported",
+  "region": "us-east-1"
+}

@@ -1,0 +1,7 @@
+{
+  "SendTimeStamp": "{$TIMESTAMP}",
+  "GeoLocation": {
+    "Latitude": 0.0000,
+    "Longitude": 0.000
+  }
+}

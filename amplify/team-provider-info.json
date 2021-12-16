@@ -1,0 +1,51 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wavelengthlatency-dev-135745-authRole",
+      "UnauthRoleArn": "arn:aws:iam::181679361525:role/amplify-wavelengthlatency-dev-135745-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::181679361525:role/amplify-wavelengthlatency-dev-135745-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-wavelengthlatency-dev-135745-deployment",
+      "UnauthRoleName": "amplify-wavelengthlatency-dev-135745-unauthRole",
+      "StackName": "amplify-wavelengthlatency-dev-135745",
+      "StackId": "arn:aws:cloudformation:us-east-1:181679361525:stack/amplify-wavelengthlatency-dev-135745/46dda140-10ce-11ec-af69-0e4f19f4771b",
+      "AmplifyAppId": "d2ryv7zedhnt3m"
+    }
+  },
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wavelengthlatency-test-154243-authRole",
+      "UnauthRoleArn": "arn:aws:iam::195026230833:role/amplify-wavelengthlatency-test-154243-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::195026230833:role/amplify-wavelengthlatency-test-154243-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-wavelengthlatency-test-154243-deployment",
+      "UnauthRoleName": "amplify-wavelengthlatency-test-154243-unauthRole",
+      "StackName": "amplify-wavelengthlatency-test-154243",
+      "StackId": "arn:aws:cloudformation:us-east-1:195026230833:stack/amplify-wavelengthlatency-test-154243/42fc8310-1bdd-11ec-bb9d-0a387804de27",
+      "AmplifyAppId": "d1wwe94lg3vevl"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1wwe94lg3vevl",
+          "type": "manual"
+        }
+      },
+      "auth": {
+        "wavelengthlatencyd04c475c": {
+          "userPoolId": "us-east-1_rxOXHRb9b",
+          "userPoolName": "android-pool",
+          "webClientId": "3g5q31mnd1qf4md4rnf0vru8vn",
+          "nativeClientId": "3g5q31mnd1qf4md4rnf0vru8vn",
+          "identityPoolId": "us-east-1:2080b65b-9d86-4ad7-a4a9-cf560a7e8a66",
+          "identityPoolName": "android-mqtt-pool",
+          "allowUnauthenticatedIdentities": true,
+          "authRoleArn": "arn:aws:iam::195026230833:role/Cognito_androidmqttpool1Auth_Role",
+          "authRoleName": "Cognito_androidmqttpool1Auth_Role",
+          "unauthRoleArn": "arn:aws:iam::195026230833:role/Cognito_androidmqttpoolUnauth_Role",
+          "unauthRoleName": "Cognito_androidmqttpoolUnauth_Role"
+        }
+      }
+    }
+  }
+}
