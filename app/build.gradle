@@ -14,7 +14,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.wavelengthlocationservices"
+        applicationId "software.amazon.samples.wavelengthmqttlatency"
         minSdk 28
         targetSdk 31
         versionCode 1
@@ -43,22 +43,22 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
-    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
     implementation 'androidx.navigation:navigation-fragment:2.3.5'
     implementation 'androidx.navigation:navigation-ui:2.3.5'
     implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5'
     implementation 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
     implementation 'org.apache.commons:commons-text:1.9'
     // AWS IoT Core librarys for MQTT connection
-    implementation ('com.amazonaws:aws-android-sdk-iot:2.32.0') { transitive = true }
-    implementation ('com.amazonaws:aws-android-sdk-mobile-client:2.32.0') { transitive = true }
+    implementation ('com.amazonaws:aws-android-sdk-iot:2.37.0') { transitive = true }
+    implementation ('com.amazonaws:aws-android-sdk-mobile-client:2.37.0') { transitive = true }
     // Amplify core dependency:q
-    implementation 'com.amplifyframework:core:1.24.0'
-    implementation 'com.amplifyframework:aws-auth-cognito:1.24.0'
+    implementation 'com.amplifyframework:core:1.31.0'
+    implementation 'com.amplifyframework:aws-auth-cognito:1.31.0'
     // Support for Java 8 features
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.5'
     testImplementation 'junit:junit:4.13.2'

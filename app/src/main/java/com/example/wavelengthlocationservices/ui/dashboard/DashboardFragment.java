@@ -1,6 +1,6 @@
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: MIT-0
-package com.example.wavelengthlocationservices.ui.dashboard;
+package software.amazon.samples.wavelengthmqttlatency.ui.dashboard;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -28,10 +28,10 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.amazonaws.mobileconnectors.iot.AWSIotMqttClientStatusCallback;
-import com.example.wavelengthlocationservices.R;
-import com.example.wavelengthlocationservices.databinding.FragmentDashboardBinding;
-import com.example.wavelengthlocationservices.ui.AwsIoTMqttHelper;
-import com.example.wavelengthlocationservices.ui.SharedViewModel;
+import software.amazon.samples.wavelengthmqttlatency.R;
+import software.amazon.samples.wavelengthmqttlatency.databinding.FragmentDashboardBinding;
+import software.amazon.samples.wavelengthmqttlatency.ui.AwsIoTMqttHelper;
+import software.amazon.samples.wavelengthmqttlatency.ui.SharedViewModel;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.io.InputStream;
