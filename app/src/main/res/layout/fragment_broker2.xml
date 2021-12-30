@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.broker2.Broker2Fragment">
+    tools:context="software.amazon.samples.wavelengthmqttlatency.ui.broker2.Broker2Fragment">
 
     <Spinner
         android:id="@+id/az_array"

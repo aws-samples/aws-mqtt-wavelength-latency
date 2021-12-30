@@ -7,25 +7,25 @@
 
     <fragment
         android:id="@+id/navigation_broker"
-        android:name="com.example.wavelengthlocationservices.ui.broker.BrokerFragment"
+        android:name="software.amazon.samples.wavelengthmqttlatency.ui.broker.BrokerFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_broker" />
 
     <fragment
         android:id="@+id/navigation_broker2"
-        android:name="com.example.wavelengthlocationservices.ui.broker2.Broker2Fragment"
+        android:name="software.amazon.samples.wavelengthmqttlatency.ui.broker2.Broker2Fragment"
         android:label="@string/title_home_2"
         tools:layout="@layout/fragment_broker2" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.example.wavelengthlocationservices.ui.dashboard.DashboardFragment"
+        android:name="software.amazon.samples.wavelengthmqttlatency.ui.dashboard.DashboardFragment"
         android:label="Publish"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.example.wavelengthlocationservices.ui.notifications.NotificationsFragment"
+        android:name="software.amazon.samples.wavelengthmqttlatency.ui.notifications.NotificationsFragment"
         android:label="Results"
         tools:layout="@layout/fragment_notifications" />
 </navigation>

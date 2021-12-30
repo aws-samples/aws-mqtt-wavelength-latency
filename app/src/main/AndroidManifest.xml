@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.wavelengthlocationservices">
+    package="software.amazon.samples.wavelengthmqttlatency">
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <application
@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WavelengthLocationServices">
         <activity
-            android:name=".MainActivity"
+            android:name="software.amazon.samples.wavelengthmqttlatency.MainActivity"
             android:exported="true"
             android:label="@string/app_name">
             <intent-filter>
