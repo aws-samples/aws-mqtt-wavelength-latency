@@ -53,3 +53,8 @@ Additionally, replace the username and password with the values you set for your
     <string name="iot_username">InsertMQTTUsernameHere</string>
     <string name="iot_password">InsertPasswordHere</string>
 ```
+
+## Setup IoT Core Connectivity
+The application provides the ability to send the results of a latency test to IoT Core.  There are numerous downstream services provided by AWS that can ingest the data, but utilizing AWS IoT Core -> Timestream -> Grafana to see impact of latency against time and location is the easiest way to visualize the data.
+
+To start, your unique AWS IoT Core endpoint needs to be updated in 

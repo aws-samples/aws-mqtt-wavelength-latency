@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Wavelength MQTT Latency</string>
+    <string name="title_home">Broker 1</string>
+    <string name="title_home_2">Broker 2</string>
+    <string name="title_dashboard">Publish</string>
+    <string name="title_notifications">Results</string>
+    <string name="sample_client_id">ExampleAndroidClient</string>
+    <string name="sample_client_id2">ExampleAndroidClient2</string>
+    <string name="iot_endpoint">REPLACE</string>
+    <string name="iot_topic_ingress">wavelength/testtopic</string>
+    <string name="iot_topic_ingress2">wavelength/testtopic2</string>
+
+    <string name="iot_username">Wavelength</string>
+    <string name="iot_password">REPLACE</string>
+    <string name="iot_endpoint_mosquito">tcp://REPLACE.compute.amazonaws.com:1883</string>
+    <string name="iot_endpoint_mosquito_2">tcp://REPLACE.compute-1.amazonaws.com:1883</string>
+    <string name="sim_complete_msg">Simulation Complete</string>
+    <string name="avg_latency_msg">Average Latency</string>
+    <string name="broker_2">Broker 2</string>
+    <string name="broker_1">Broker 1</string>
+    <string-array name="qos_array">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="broker_array">
+        <item>Select Broker</item>
+        <item>Mosquitto</item>
+    </string-array>
+    <string-array name="az_mosquitto_array">
+        <item>Select Mosquitto Endpoint</item>
+        <item>us-west-2a</item>
+        <item>us-east-1</item>
+        <item>givenand-wl-mqtt-atl</item>
+    </string-array>
+    <string-array name="az_core_array">
+        <item>Select IoT Core Endpoint</item>
+        <item>us-east-1</item>
+    </string-array>
+    <string-array name="az_gg_array">
+        <item>Select Greengrass Endpoint</item>
+        <item>givenand-wl-mqtt-atl-1 </item>
+    </string-array>
+</resources>
