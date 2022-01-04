@@ -40,6 +40,8 @@ Once your EC2 Instances are setup, you will need the public DNS of each one to c
 
 **Please note two MQTT brokers are not required**
 
+Edit the app -> res -> values -> strings.sample.xml and rename to strings.xml
+
 Edit the app -> res -> values -> strings.xml and replace your EC2 endpoint
 
 ```
@@ -57,4 +59,8 @@ Additionally, replace the username and password with the values you set for your
 ## Setup IoT Core Connectivity
 The application provides the ability to send the results of a latency test to IoT Core.  There are numerous downstream services provided by AWS that can ingest the data, but utilizing AWS IoT Core -> Timestream -> Grafana to see impact of latency against time and location is the easiest way to visualize the data.
 
-To start, your unique AWS IoT Core endpoint needs to be updated in 
+To start, your unique AWS IoT Core endpoint needs to be updated in strings.xml
+
+```
+
+```
